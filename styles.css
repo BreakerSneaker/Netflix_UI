@@ -1,0 +1,89 @@
+#box{
+    width: 181px;
+height: 265px;
+background-color: rgb(128, 128, 128);
+
+
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 30px;
+    
+    position: absolute;
+    width: 1075px;
+    height: 315px;
+    left: calc(50% - 1075px/2 - 137.5px);
+    top: calc(50% - 315px/2 + 289.5px);
+}
+
+.wrapperChild{
+    position: absolute;
+width: 749px;
+height: 97px;
+left: 69px;
+top: 168px;
+
+font-family: 'a Antara Distance';
+font-style: italic;
+font-weight: 400;
+font-size: 96px;
+line-height: 129px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
+
+.wrapperChild p{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 25px;
+gap: 10px;
+height: 0;
+
+
+}
+.wrapperButton{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+    position: absolute;
+width: 68px;
+height: 478px;
+left: 18px;
+top: 232px;
+}
+
+#box2{
+    width: 20px;
+height: 20px;
+}
+
+body{
+    background-color: black;
+
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: relative;
+width: 1512px;
+height: 982px;
+
+}
+
+#boxParagraph{
+    font-size: 20px;
+    
+}
